@@ -5,21 +5,24 @@
 for( let i = 1; i <= 100; i++) {
 
     // Variable Declaration
-    let numberFizz = 'Fizz';
-    let numberBuzz = 'Buzz';
-    let NumberFizzBuzz = 'FizzBuzz';
-    console.log(i);
+    let NumberFizzBuzz;
 
     // Comparison of multiples of 3 and 5
     if( i % 3 === 0 && i % 5 === 0) {
+        NumberFizzBuzz = 'FizzBuzz';
         console.log(NumberFizzBuzz);
-        
+
     } else if( i % 5 === 0 ) {
-        console.log(numberBuzz);
+        NumberFizzBuzz = 'Buzz';
+        console.log(NumberFizzBuzz);
 
     } else if( i % 3 === 0 ) {
-        console.log(numberFizz);
+        NumberFizzBuzz = 'Fizz';
+        console.log(NumberFizzBuzz);
 
+    } else {
+        console.log(i);
+        
     }
     
 }
