@@ -8,7 +8,7 @@
 body{
     background-color: #083b4c;
 }
-/* Wrapper */
+/* Container */
 .container{
     display: flex;
     justify-content: center;
