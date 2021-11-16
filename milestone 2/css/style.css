@@ -30,8 +30,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: calc( 100% / 7 - 20px );
+    padding: 50px;
     margin: 10px;
     background-color: #1289b2;
 }

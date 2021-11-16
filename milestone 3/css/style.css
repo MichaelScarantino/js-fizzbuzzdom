@@ -1,0 +1,48 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMON */
+body{
+    background-color: #083b4c;
+}
+/* Wrapper */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+
+}
+/* text */
+h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+/* Box */
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc( 100% / 7 - 20px );
+    padding: 50px;
+    margin: 10px;
+    background-color: #1289b2;
+}
+/* Green */
+.fizz{
+    background-color: #0cd6a1;
+}
+/* Yellow */
+.buzz{
+    background-color: #ffd166;
+}
+/* Red */
+.fizzbuzz{
+    background-color: #f0466f;
+}
