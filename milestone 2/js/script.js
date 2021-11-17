@@ -11,27 +11,24 @@ for( let i = 1; i <= 100; i++) {
     // Comparison of multiples of 3 and 5
     if( i % 3 === 0 && i % 5 === 0) {
         NumberFizzBuzz = 'FizzBuzz';
-        console.log(NumberFizzBuzz);
         const newBoxNumber = `
         <div class="box">${NumberFizzBuzz}</div>`;
         boxContainer.innerHTML += newBoxNumber;
 
     } else if( i % 5 === 0 ) {
         NumberFizzBuzz = 'Buzz';
-        console.log(NumberFizzBuzz);
         const newBoxNumber = `
         <div class="box">${NumberFizzBuzz}</div>`;
         boxContainer.innerHTML += newBoxNumber;
 
     } else if( i % 3 === 0 ) {
         NumberFizzBuzz = 'Fizz';
-        console.log(NumberFizzBuzz);
         const newBoxNumber = `
         <div class="box">${NumberFizzBuzz}</div>`;
         boxContainer.innerHTML += newBoxNumber;
 
     } else {
-        console.log(i);
+        NumberFizzBuzz = i;
         const newBoxNumber = `
         <div class="box">${i}</div>`;
         boxContainer.innerHTML += newBoxNumber;

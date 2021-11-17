@@ -33,6 +33,7 @@ for( let i = 1; i <= 100; i++) {
         boxContainer.innerHTML += newBoxNumber;
 
     } else {
+        NumberFizzBuzz = i;
         // Add class
         const newBoxNumber = `
         <div class="box">${i}</div>`;
