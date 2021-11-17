@@ -9,25 +9,25 @@ for( let i = 1; i <= 100; i++) {
 
     // Variable Declaration
     let NumberFizzBuzz;
-
+    let NumberFizzBuzzColor;
     // Comparison of multiples of 3 and 5
     if( i % 3 === 0 && i % 5 === 0) {
         NumberFizzBuzz = 'fizzbuzz';
-    
+        NumberFizzBuzzColor = 'fizzbuzz';
     } else if( i % 5 === 0 ) {
         NumberFizzBuzz = 'buzz';
-
+        NumberFizzBuzzColor = 'buzz';
     } else if( i % 3 === 0 ) {
         NumberFizzBuzz = 'fizz';
-        
+        NumberFizzBuzzColor = 'fizz';
     } else {
         NumberFizzBuzz = i;
-        
+        NumberFizzBuzzColor = '';
     }
     
      // Add class and style
      const newBoxNumber = `
-     <div class="box ${NumberFizzBuzz}">${NumberFizzBuzz}</div>`;
+     <div class="box ${NumberFizzBuzzColor}">${NumberFizzBuzz}</div>`;
      boxContainer.innerHTML += newBoxNumber;
 
     
