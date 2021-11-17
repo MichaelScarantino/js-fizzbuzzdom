@@ -13,35 +13,22 @@ for( let i = 1; i <= 100; i++) {
     // Comparison of multiples of 3 and 5
     if( i % 3 === 0 && i % 5 === 0) {
         NumberFizzBuzz = 'fizzbuzz';
-        // Add class and style
-        const newBoxNumber = `
-        <div class="box ${NumberFizzBuzz}">${NumberFizzBuzz}</div>`;
-        boxContainer.innerHTML += newBoxNumber;
     
     } else if( i % 5 === 0 ) {
         NumberFizzBuzz = 'buzz';
-        // Add class and style
-        const newBoxNumber = `
-        <div class="box ${NumberFizzBuzz}">${NumberFizzBuzz}</div>`;
-        boxContainer.innerHTML += newBoxNumber;
 
     } else if( i % 3 === 0 ) {
         NumberFizzBuzz = 'fizz';
-        // Add class and style
-        const newBoxNumber = `
-        <div class="box ${NumberFizzBuzz}">${NumberFizzBuzz}</div>`;
-        boxContainer.innerHTML += newBoxNumber;
-
+        
     } else {
         NumberFizzBuzz = i;
-        // Add class
-        const newBoxNumber = `
-        <div class="box">${i}</div>`;
-        boxContainer.innerHTML += newBoxNumber;
         
     }
     
-    
+     // Add class and style
+     const newBoxNumber = `
+     <div class="box ${NumberFizzBuzz}">${NumberFizzBuzz}</div>`;
+     boxContainer.innerHTML += newBoxNumber;
 
     
 
